@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="solid-bordered"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="glass"
-      showBlurBottom="true"
+      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple

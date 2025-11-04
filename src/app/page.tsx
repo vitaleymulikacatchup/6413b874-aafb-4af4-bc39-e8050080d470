@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="solid-bordered"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="glass"
-      showBlurBottom={true}
+      showBlurBottom="true"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
@@ -179,8 +179,7 @@ export default function Home() {
               company: "Culinary Weekly",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12935085/pexels-photo-12935085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Maria Rodriguez",
-              review: "Absolutely authentic Italian cuisine that transports you straight to Italy. The carbonara is perfection!"
+              imageAlt: "Maria Rodriguez"
             },
             {
               id: "2",
@@ -189,8 +188,7 @@ export default function Home() {
               company: "City Center",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12574333/pexels-photo-12574333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Antonio Moretti",
-              review: "Been coming here for years. The family recipes and warm atmosphere never disappoint."
+              imageAlt: "Antonio Moretti"
             },
             {
               id: "3",
@@ -199,8 +197,7 @@ export default function Home() {
               company: "Foodie Adventures",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3184177/pexels-photo-3184177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sarah Johnson",
-              review: "The most authentic Italian experience outside of Italy. Every dish tells a story!"
+              imageAlt: "Sarah Johnson"
             },
             {
               id: "4",
@@ -209,8 +206,7 @@ export default function Home() {
               company: "Italian Heritage",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/5086619/pexels-photo-5086619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Giuseppe Ricci",
-              review: "As someone from Italy, I can say this is the real deal. Traditional flavors done right."
+              imageAlt: "Giuseppe Ricci"
             },
             {
               id: "5",
@@ -219,8 +215,7 @@ export default function Home() {
               company: "Sommelier Society",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6613044/pexels-photo-6613044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Emma Thompson",
-              review: "Outstanding wine selection perfectly paired with exceptional Italian cuisine. Highly recommended!"
+              imageAlt: "Emma Thompson"
             }
           ]}
         />
